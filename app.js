@@ -9,7 +9,7 @@ const _ = require('lodash');
 mongoose.connect("mongodb://localhost:27017/blogDB", {useNewUrlParser: true, useCreateIndex: true, useUnifiedTopology: true, useFindAndModify: false});
 
 const homeStartingContent = "This is my first blog post for this website. I have created this using HTML/CSS, Bootstrap, Node.js, Express.js, MongoDB. The purpose of this site is to allow myself to compose messages and post these onto the home page.";
-const aboutContent = "";
+const aboutContent = ""; 
 const contactContent = "If you wish to get in contact with me: grandline1@hotmail.co.uk";
 //let posts = [];
 
